@@ -34,35 +34,49 @@ with the ability to automatically add external servers (peers) via SSH and fully
 
 ---
 
-### Automatic method (without menu)
+### Automatic Install
 
 You can call functions inside the script from another shell script or directly execute commands.  
 For example, to install the main server automatically:
 
 ```bash
 sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/MAPSIM-co/Mapsim_Wireguard_Tunnel/main/install.sh)"
+
 ```
 
 (Note: Adjust the URL and usage as per your setup)
 
 ---
 
-### Manual method
+### Manual Method
 
-1. Copy the script to your server or clone the repository.  
+1. Copy the script to your server or clone the repository:
+   ```bash
+   git clone https://github.com/MAPSIM-co/Mapsim_Wireguard_Tunnel.git
+   cd Mapsim_Wireguard_Tunnel
+    ```
+   
 2. Make the script executable:
+   ```bash
+   chmod +x mapsim-tunnel.sh
+   ```
+   
+4. Run the script as root:
+   ```bash
+   sudo ./mapsim-tunnel.sh
+   ```
+  - if ``root`` :
 
-```bash
-chmod +x mapsim-tunnel.sh
-```
+     ```bash
+     sudo mapsim-tunnel.sh
+     ```
 
-3. Run the script as root:
+**An interactive menu will appear, allowing you to:**
 
-```bash
-sudo ./mapsim-tunnel.sh
-```
-
-4. An interactive menu will appear, allowing you to choose installation, add external servers, and more.
+- **Install the Mapsim tunnel service**
+- **Add or remove external servers (``reverse tunnels``)**
+- **Start/stop the tunnel**
+- **Check tunnel and peer status**
 
 ---
 
