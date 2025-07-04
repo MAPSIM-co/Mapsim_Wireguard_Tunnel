@@ -32,6 +32,21 @@ with the ability to automatically add external servers (peers) via SSH and fully
 
 ## Installation and Usage
 
+---
+
+### Automatic method (without menu)
+
+You can call functions inside the script from another shell script or directly execute commands.  
+For example, to install the main server automatically:
+
+```bash
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/MAPSIM-co/mapsim-tunnel/main/mapsim-tunnel.sh)"
+```
+
+(Note: Adjust the URL and usage as per your setup)
+
+---
+
 ### Manual method
 
 1. Copy the script to your server or clone the repository.  
@@ -48,19 +63,6 @@ sudo ./mapsim-tunnel.sh
 ```
 
 4. An interactive menu will appear, allowing you to choose installation, add external servers, and more.
-
----
-
-### Automatic method (without menu)
-
-You can call functions inside the script from another shell script or directly execute commands.  
-For example, to install the main server automatically:
-
-```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/yourusername/mapsim-tunnel/main/mapsim-tunnel.sh)" install_main_server
-```
-
-(Note: Adjust the URL and usage as per your setup)
 
 ---
 
