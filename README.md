@@ -30,6 +30,13 @@ with the ability to automatically add external servers (peers) via SSH and fully
 
 ---
 
+## Logo Script
+
+![Logo Script](https://github.com/MAPSIM-co/Mapsim_Wireguard_Tunnel/blob/main/Image/Mapsim_logo.png?raw=true)
+
+
+---
+
 ## Installation and Usage
 
 ---
