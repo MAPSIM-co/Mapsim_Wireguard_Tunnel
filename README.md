@@ -5,6 +5,14 @@ with the ability to automatically add external servers (peers) via SSH and fully
 
 ---
 
+## Usage Model
+
+-  This tunnel management script must be run on the ``main server`` (e.g., the server located in Iran).
+
+-  External servers, called ``Distance Servers``, are the remote peers (e.g., foreign servers)
+  
+-  **that connect to the main server via WireGuard tunnels.**
+
 ## Features
 
 - Automatic installation of the main WireGuard server  
