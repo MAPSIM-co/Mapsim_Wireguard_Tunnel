@@ -40,7 +40,7 @@ You can call functions inside the script from another shell script or directly e
 For example, to install the main server automatically:
 
 ```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/MAPSIM-co/mapsim-tunnel/main/mapsim-tunnel.sh)"
+sudo bash -c "$(curl -fsSL https://github.com/MAPSIM-co/Mapsim_Wireguard_Tunnel/main/mapsim-tunnel.sh)"
 ```
 
 (Note: Adjust the URL and usage as per your setup)
