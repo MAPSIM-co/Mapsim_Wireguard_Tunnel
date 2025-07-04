@@ -18,7 +18,8 @@ with the ability to automatically add external servers (peers) via SSH and fully
 
 ## Requirements
 
-- Operating System: Ubuntu or Debian  
+- Operating System: Ubuntu or Debian
+  - recommend using ``Ubuntu 22.04``
 - Root access to run the script  
 - The following packages will be installed automatically if missing:  
   - wireguard  
