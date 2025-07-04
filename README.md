@@ -76,7 +76,7 @@ sudo ./mapsim-tunnel.sh
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](https://github.com/MAPSIM-co/Mapsim_Wireguard_Tunnel/blob/main/LICENSE) License.
 
 ---
 
